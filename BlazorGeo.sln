@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorGeo", "BlazorGeo\BlazorGeo.csproj", "{65A38205-0951-48B8-A0F6-E78493915A3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65A38205-0951-48B8-A0F6-E78493915A3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65A38205-0951-48B8-A0F6-E78493915A3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65A38205-0951-48B8-A0F6-E78493915A3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65A38205-0951-48B8-A0F6-E78493915A3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6DE12BF-D4BD-4EBA-8988-124DCCD8A286}
+	EndGlobalSection
+EndGlobal

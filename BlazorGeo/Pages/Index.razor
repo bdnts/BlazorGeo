@@ -1,0 +1,31 @@
+﻿@page "/"
+@using AspNetMonsters.Blazor.Geolocation
+@inject LocationService  locationService
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+<h3>You are here</h3>
+<button class="btn btn-primary" type="button" @onclick="GetMyLocation">Get My Location</button>
+
+<div>
+    Lat: @location?.Latitude <br />
+    Long: @location?.Longitude <br />
+    Accuracy: @location?.Accuracy <br />
+</div>
+
+@functions
+{
+    Location location;
+
+    //protected override async Task OnInitializedAsync()
+    //{
+    //    location = await locationService.GetLocationAsync();
+    //}
+
+    private async Task GetMyLocation()
+    {
+        location = await  locationService.GetLocationAsync();
+    }
+
+}
