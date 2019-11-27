@@ -5,8 +5,9 @@
 <h1>Hello, world!</h1>
 
 Welcome to your new app.
-<h3>You are here</h3>
+<br />
 <button class="btn btn-primary" type="button" @onclick="GetMyLocation">Get My Location</button>
+<h3>You are here</h3>
 
 <div>
     Lat: @location?.Latitude <br />
@@ -27,5 +28,4 @@ Welcome to your new app.
     {
         location = await  locationService.GetLocationAsync();
     }
-
 }
